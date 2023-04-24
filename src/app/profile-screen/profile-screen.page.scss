@@ -1,0 +1,74 @@
+
+.avatar {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    overflow: hidden; 
+  }
+  ion-row{
+    display: flex;
+    align-items: center;
+  }
+  // "scripts": {
+  //   "ng": "ng",
+  //   "start": "ng serve",
+  //   "build": "ng build",
+  //   "watch": "ng build --watch --configuration development",
+  //   "test": "ng test",
+  //   "lint": "ng lint"
+  // },
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .userInfoContainer{
+    padding: 2rem 0rem 1rem  0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  ion-text{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  p{
+    font-size: 0.8rem;
+  }
+
+  .followersContainer{
+    padding-top: 2rem;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .info{
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .info p{
+    font-size: 0.9rem;
+  }
+  ion-button {
+    margin-top: 1rem;
+    text-transform: none;
+  }
+
+  img{
+    border-radius:0.4rem;
+
+  }
+  .paddin-bot{
+    margin-bottom:1rem
+  }

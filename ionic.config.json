@@ -1,0 +1,8 @@
+{
+  "name": "Profile Page",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
